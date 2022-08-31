@@ -87,3 +87,40 @@ footer {
   font-size: 14px;
   line-height: 17px;
 }
+
+@media (max-width: 500px) {
+  header {
+    top: 20px;
+    left: 24px;
+  }
+  #scarecrow-img {
+    width: 287px;
+    height: 220px;
+    top: 109px;
+    left: 44px;
+  }
+  h1 {
+    width: 350px;
+    height: 142px;
+    top: 407px;
+    left: 24px;
+    font-size: 48px;
+    line-height: 71px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 27px;
+    width: 328px;
+    height: 81px;
+    top: 579px;
+    left: 23px;
+  }
+  button {
+    top: 726px;
+    left: 24px;
+  }
+  footer {
+    top: 908px;
+    left: 46px;
+  }
+}
